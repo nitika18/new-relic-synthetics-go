@@ -8,7 +8,7 @@ import (
 
 	httpmock "gopkg.in/jarcoal/httpmock.v1"
 
-	"github.com/dollarshaveclub/new-relic-synthetics-go"
+	"github.com/nitika18/new-relic-synthetics-go"
 )
 
 func client() *synthetics.Client {
@@ -37,7 +37,7 @@ func TestGetMonitor(t *testing.T) {
 		Name:         "test-monitor",
 		Type:         "SCRIPT_BROWSER",
 		Frequency:    60,
-		URI:          "https://dollarshaveclub.com",
+		URI:          "https://nitika18.com",
 		Locations:    []string{"AWS_US_WEST_1"},
 		Status:       "ENABLED",
 		SLAThreshold: 7,
@@ -92,7 +92,7 @@ func TestIntegration(t *testing.T) {
 		Name:         "david-test-1",
 		Type:         "SCRIPT_BROWSER",
 		Frequency:    60,
-		URI:          "https://www.dollarshaveclub.com",
+		URI:          "https://www.nitika18.com",
 		Locations:    []string{"AWS_US_WEST_1"},
 		Status:       "ENABLED",
 		SLAThreshold: 7,

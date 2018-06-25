@@ -1,7 +1,7 @@
 # new-relic-synthetics-go
 
-[![GoDoc](https://godoc.org/github.com/dollarshaveclub/new-relic-synthetics-go?status.svg)](https://godoc.org/github.com/dollarshaveclub/new-relic-synthetics-go)
-[![CircleCI](https://circleci.com/gh/dollarshaveclub/new-relic-synthetics-go.svg?style=svg)](https://circleci.com/gh/dollarshaveclub/new-relic-synthetics-go)
+[![GoDoc](https://godoc.org/github.com/nitika18/new-relic-synthetics-go?status.svg)](https://godoc.org/github.com/nitika18/new-relic-synthetics-go)
+[![CircleCI](https://circleci.com/gh/nitika18/new-relic-synthetics-go.svg?style=svg)](https://circleci.com/gh/nitika18/new-relic-synthetics-go)
 
 A [New Relic Synthetics](https://newrelic.com/synthetics) API client
 for Go. This package provides CRUD functionality for both Synthetics
@@ -24,7 +24,7 @@ client.CreateMonitor(&synthetics.CreateMonitorArgs{
 	Name:         "sample-monitor",
 	Type:         "SIMPLE",
 	Frequency:    60,
-	URI:          "https://www.dollarshaveclub.com",
+	URI:          "https://www.nitika18.com",
 	Locations:    []string{"AWS_US_WEST_1"},
 	Status:       "ENABLED",
 	SLAThreshold: 7,

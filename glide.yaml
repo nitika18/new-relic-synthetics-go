@@ -1,4 +1,4 @@
-package: github.com/dollarshaveclub/new-relic-synthetics-go
+package: github.com/nitika18/new-relic-synthetics-go
 import:
 - package: github.com/pkg/errors
   version: ~0.8.0
